@@ -1,0 +1,132 @@
+# name="Adarsh"
+# city="Mumbai"
+# print(f"My name is {name}.I am from {city}.")
+
+
+# n=5
+# x=1
+# while x<=10:
+#     print( n ,"X",x ,"=", x*n)
+#     x = x + 1
+# else:
+#     print("DONE!")
+
+
+# def factorial(n):
+#     if (n==0 or n==1):
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+# # print(int(input("Enter the number:")))
+# print(factorial(3))
+# print(factorial(4))
+# print(factorial(5))
+
+# Fibonacci sequence:
+# def f(n):
+
+# if (n==0):
+#         return 0
+#     elif(n==1 or n==2):
+#         return 1
+#     else:
+#         return f(n-1)+f(n-2)
+# print(f(int(input('Enter the number:'))))
+
+
+# SETS:
+# x={'ash',2,3,9,"ksh"}
+# print(x)
+# for i in x:
+#     print(i)
+    
+    
+# str = "Geeksforgeeks"
+# print(list(reversed(str)))
+ 
+ 
+#  a=int(input("Enter the secret code:"))
+# if(a<len(a)):
+#     print(list(reversed(a)))
+# elif(a>=3):
+#     #############################
+    
+# names=["ash","adarsh","sujal","tahami","kushal","malhar"]
+# for index,i in enumerate(names):
+#     print(index,i)
+#     if (index==1):
+#         print("Nice!")
+#     elif(index==3):
+#         print("Chumtya!")
+#     else:
+#         print("Done!")
+# #######################################33
+# a=4389
+# b=3406
+# print(a) if (a>b) else print(b) 
+# #################################
+# from 1 import ash, welcome
+
+# welcome()
+# print(ash)
+
+
+# ###################
+
+# def welcome():
+#     print("You're welcome here !")
+    
+# ash='Ash is a cool boy.'
+####################################\
+    
+# f = open('myfile.txt','r')
+# print(f.read())
+# # f.close()
+
+# f=open("myfile2.txt","w")
+# # f.close()
+
+# f=open('myfile.txt',"a")
+# f.write('yo,yo,yo!')
+# # f.close()
+
+# f= open('myfile.txt','r')
+# i=0
+# while True:
+#     i=i+1
+#     line = f.readline()
+#     if not line:
+#         break
+#     m1=int(line.split(",")[0])
+#     m2=int(line.split(",")[1])
+#     m3=int(line.split(",")[2])
+#     print(f'Marks of student {i} in Maths is {m1}')
+#     print(f'Marks of student {i} in English is {m2}')
+#     print(f'Marks of student {i} in SST is {m3}')
+#     print(line)
+
+
+# f= open('myfile2.txt','w')
+# # lines=('line 1','line 2','line 3')
+# # f.writelines(lines)
+# x=0
+# for x in range(0,100):
+#     x=x+1
+#     if (x<100):
+#      f.write(f"line {x}\n")
+#     else:
+#      f.write(f"line {x}")
+# # for i in lines:
+# #     f.write( i + "\n")
+
+
+# f=open('myfile2.txt','r')
+# print(type(f))
+# f.seek(2)
+# print(f.tell())
+# print(f.read(5))
+
+
+# f=open('myfile3.txt','w')
+# f.write("Hello World !")
+# f.truncate(8)
